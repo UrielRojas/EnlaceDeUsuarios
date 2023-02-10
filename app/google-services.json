@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "307366677320",
+    "firebase_url": "https://abarrtorestiendas-default-rtdb.firebaseio.com",
+    "project_id": "abarrtorestiendas",
+    "storage_bucket": "abarrtorestiendas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307366677320:android:3aa1add22a0b0cf9a0417d",
+        "android_client_info": {
+          "package_name": "com.example.proyectofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307366677320-nuaj6ovpj4s1c5i4b7me87nviprjp9su.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE_fGUFc4SsKj_9izpbUyTupHtn5_Aafo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307366677320-nuaj6ovpj4s1c5i4b7me87nviprjp9su.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

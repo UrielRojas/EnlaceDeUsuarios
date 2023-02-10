@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">STOREAGE</string>
+    <string name="Noincio">Error al iniciar Session ,intente nuevamente</string>
+    <string name="Aceptar">Comercio Registrado Correctamente</string>
+    <string name="Ok_no">Entendido</string>
+    <string name="Listo">Aceptar</string>
+    <string name="Google">Ingresar con Google</string>
+
+</resources>

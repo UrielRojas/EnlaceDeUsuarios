@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBA31A"
+    tools:context=".FotoArchivo">
+
+    <ImageView
+        android:id="@+id/ImagenChida"
+        android:layout_width="208dp"
+        android:layout_height="224dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="254dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="96dp"
+        android:text="Resultado de la Captura"
+        android:textColor="#DF1E26"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/ImagenChida"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <LinearLayout
+        android:layout_width="359dp"
+        android:layout_height="214dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImagenChida"
+        app:layout_constraintVertical_bias="0.36">
+
+        <TextView
+            android:id="@+id/NombrePro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre : "
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/NombreEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Empresa:"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/NombrePresentacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prentacion "
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/NombreTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Producto:"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/ProvedoresProductos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lista de Provedores"
+            android:textColor="#FBA31A"
+            android:textStyle="bold|italic"
+            app:iconTint="#FBA31A" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

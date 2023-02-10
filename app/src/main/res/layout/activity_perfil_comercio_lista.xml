@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4DC4CF"
+    tools:context=".PerfilComercioLista">
+
+    <TextView
+        android:id="@+id/comer"
+        android:layout_width="392dp"
+        android:layout_height="44dp"
+        android:gravity="center_horizontal"
+        android:text="Nombre del comercio"
+        android:textColor="#e4f4fd"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="208dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comer"
+        app:srcCompat="@drawable/comercioperfil" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="342dp"
+        android:layout_height="334dp"
+        android:layout_margin="10dp"
+        android:foregroundGravity="center_horizontal"
+        app:cardBackgroundColor="#e4f4fd"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.512">
+
+        <LinearLayout
+            android:layout_width="322dp"
+            android:layout_height="299dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="24dp"
+            android:background="#E4F4FD"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/UsuarioPerfi"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:text="Nombre de Usuario"
+                android:textAllCaps="true"
+                android:textColor="#409dc4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ComercioPerfi"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="Direccion"
+                android:textAllCaps="true"
+                android:textColor="#409dc4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/Perficomer1"
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:gravity="center|center_horizontal"
+                android:text="Lista de Productos"
+                app:backgroundTint="#4da8cf" />
+
+            <Button
+                android:id="@+id/InicioApi"
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:gravity="center|center_horizontal"
+                android:text="Aceptar"
+                app:backgroundTint="#4da8cf" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

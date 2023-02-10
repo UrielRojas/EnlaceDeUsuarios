@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBA31A"
+    tools:context=".Inicio">
+
+    <ImageButton
+        android:id="@+id/Fotografia"
+        android:layout_width="106dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/GPS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Comercio"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fotoicono" />
+
+    <ImageButton
+        android:id="@+id/CerrarSesion"
+        android:layout_width="81dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="496dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cerrarsesion" />
+
+    <TextView
+        android:id="@+id/Comercio"
+        android:layout_width="160dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="4dp"
+        android:lineSpacingExtra="10sp"
+        android:text="  Registrar Comercio"
+        android:textAllCaps="true"
+        android:textColor="#DF1E26"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comercio" />
+
+    <ImageButton
+        android:id="@+id/comercio"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="132dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/comercio" />
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="349dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="36dp"
+        android:text="Bienvenid@"
+        android:textAllCaps="true"
+        android:textColor="#DF1E26"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Buscar"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/buscar" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="160dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="12dp"
+        android:lineSpacingExtra="10sp"
+        android:text="  Buscar Comercio"
+        android:textAllCaps="true"
+        android:textColor="#DF1E26"
+        android:textSize="14dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Buscar" />
+
+    <TextView
+        android:id="@+id/GPS"
+        android:layout_width="146dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="28dp"
+        android:lineSpacingExtra="10sp"
+        android:text="Tomar Fotografia"
+        android:textAllCaps="true"
+        android:textColor="#DF1E26"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/CerrarSesion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="110dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="24dp"
+        android:text="  Cerrar Sesion"
+        android:textAllCaps="true"
+        android:textColor="#DF1E26"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CerrarSesion" />
+
+    <ImageButton
+        android:id="@+id/Datos"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="312dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/datos" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="130dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="12dp"
+        android:lineSpacingExtra="10sp"
+        android:text="  Modificar Datos"
+        android:textAllCaps="true"
+        android:textColor="#DF1E26"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Datos" />
+
+    <ImageButton
+        android:id="@+id/Fotico"
+        android:layout_width="2dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="716dp"
+        android:background="#FBA31A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/Tipo_Perfil"
+        android:layout_width="346dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        android:textAllCaps="true"
+        android:textColor="#DF1E26"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Titulo"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

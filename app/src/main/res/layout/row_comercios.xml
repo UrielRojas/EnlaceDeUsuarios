@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FDD500"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="333dp"
+        android:layout_height="151dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#F37220"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="306dp"
+            android:layout_height="135dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombrecomercio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tienda:"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/usuarioComercio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usuario:"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/DireccionComercio"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="Direccion: "
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/PerfilComercio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4527A0"
+                android:text="Ver Perfil"
+                android:textColor="#941A1C"
+                app:backgroundTint="#FBA31A"
+                app:strokeColor="#F9A825" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
